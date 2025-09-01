@@ -1,8 +1,12 @@
 name: Visual Regression Testing
 
+<<<<<<< Updated upstream
 on:
   pull_request:
     branches: [main]
+=======
+on: push
+>>>>>>> Stashed changes
 
 permissions:
   id-token: write
