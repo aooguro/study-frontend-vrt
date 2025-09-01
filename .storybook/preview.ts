@@ -1,5 +1,5 @@
 import "../app/globals.css";
-import type { Preview } from '@storybook/nextjs-vite'
+import type { Preview } from '@storybook/nextjs'
 import { withScreenshot } from "storycap";
 
 export const decorators = [
