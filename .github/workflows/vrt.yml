@@ -36,10 +36,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       
+      - name: Build Storybook
+        run: pnpm storybook:build
+      
       - name: Take screenshots
         run: pnpm storycap
-        env:
-          NO_PROXY: localhost
       
       - name: Run VRT
         run: pnpm reg-suit run
