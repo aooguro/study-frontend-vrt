@@ -10,6 +10,11 @@
       "prComment": true,
       "prCommentBehavior": "default",
       "clientId": "MzQwMTeytDAzM9YvLilNqdRNK8rPK0nNS9EtKyrRtzA2NzU1NrLQT8zPTy8tygcA"
+    },
+    "reg-publish-s3-plugin": {
+      "bucketName": "vrt-otameshi",
+      "acl": "private",
+      "customDomain": "d1qc9387tapx9w.cloudfront.net"
     }
   }
 }
