@@ -1,7 +1,7 @@
 {
   "core": {
     "workingDir": ".reg",
-    "actualDir": "directory_contains_actual_images",
+    "actualDir": "__screenshots__",
     "thresholdRate": 0
   },
   "plugins": {
@@ -9,12 +9,12 @@
     "reg-notify-github-plugin": {
       "prComment": true,
       "prCommentBehavior": "default",
-      "clientId": "MzQwMTeytDAzM9YvLilNqdRNK8rPK0nNS9EtKyrRtzA2NzU1NrLQT8zPTy8tygcA"
+      "clientId": "$REG_NOTIFY_CLIENT_ID"
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "vrt-otameshi",
+      "bucketName": "$AWS_BUCKET_NAME",
       "acl": "private",
-      "customDomain": "d1qc9387tapx9w.cloudfront.net"
+      "customDomain": "$AWS_CLOUDFRONT_DOMAIN"
     }
   }
 }
