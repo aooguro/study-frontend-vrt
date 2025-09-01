@@ -10,8 +10,7 @@
     "format": "biome format --write",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
-    "storycap": "storycap --serverCmd \"npx http-server storybook-static -p 6006\" http://localhost:6006",
-    "build-storybook": "storybook build"
+    "storycap": "storycap --serverCmd \"npx http-server storybook-static -p 6006\" http://localhost:6006"
   },
   "dependencies": {
     "next": "15.5.2",
