@@ -36,6 +36,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       
+      - name: Workaround for detached HEAD
+        run: |
+          git checkout ${{ github.head_ref || github.ref_name }} || git checkout -b ${{ github.head_ref || github.ref_name }}
+      
       - name: Build Storybook
         run: pnpm storybook:build
       
