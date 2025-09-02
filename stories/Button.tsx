@@ -21,6 +21,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
+  // Internal logic for button styling - no visual impact
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
